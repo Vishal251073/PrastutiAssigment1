@@ -1,0 +1,60 @@
+body{
+    background-color: #121212;
+    font-family: 'Fredoka One', cursive;
+}
+.upperHalf{
+    background-color: #ffc857;
+    margin-bottom: 0%;
+    text-align: center;
+}
+#displayRGB{
+    color: white;
+    font-size: 5rem;
+    margin: auto;
+}
+.upperHalf h1{
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    padding: 0%;
+    margin-bottom: 0%;
+}
+
+.buttonGroup{
+    background-color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#play:hover{
+    background-color: #ffc857;
+}
+#easy:hover{
+    background-color: #ffc857;
+}
+#hard:hover{
+    background-color: #ffc857;
+}
+.buttons{
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+}
+
+.pallete{
+    margin: 0 auto;
+    max-width: 40rem;
+    margin-top: 2rem;
+}
+
+
+.square{
+    width: 10rem;
+    /* border: 2px solid white; */
+    height: 10rem;
+    transition: background-color 1s;
+    margin: 1rem;
+    float: left;
+    border-radius: 2rem;
+}
